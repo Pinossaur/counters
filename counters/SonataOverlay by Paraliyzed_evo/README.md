@@ -8,11 +8,8 @@
 | Compatible with | tosu |
 | Size |  2560x1440 |
 
-## Gameplay
-<img src="/.github/images/sonataoverlay by paraliyzed_evo.png" />
 
-## Results
-<img src="/.github/images/sonataoverlay by paraliyzed_evo1.png" />
+<img src="/.github/images/sonataoverlay by paraliyzed_evo.png" /> <img src="/.github/images/sonataoverlay by paraliyzed_evo1.png" />
 
 [![CodeFactor](https://www.codefactor.io/repository/github/paraliyzedevo/sonotaoverlay/badge)](https://www.codefactor.io/repository/github/paraliyzedevo/sonotaoverlay)
 [![Website](https://img.shields.io/badge/-Website-6a0dad?style=flat&logo=osu&logoColor=FFFFFF&labelColor=ff1493&color=6a0dad)](https://paraliyzed.net/)
@@ -47,3 +44,4 @@ No new preview for now :v
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ParaliyzedEvo/SonotaOverlay&type=date&legend=top-left" />
  </picture>
 </a>
+
