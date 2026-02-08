@@ -1,0 +1,7 @@
+Usecase: ingame, obs-overlay
+Name: OffsetSuggester
+Version: 1.0
+Author: Pinossaur
+CompatibleWith: tosu
+Resolution: 350x230
+authorLinks: https://github.com/Pinossaur

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Offset Suggester</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+		body
+		{
+			margin: 0;
+			background: transparent;
+		}
+
+		.offset-card
+		{
+			width: 300px;
+			padding: 16px;
+			border-radius: 12px;
+			background: rgba(20, 20, 25, 0.85);
+			backdrop-filter: blur(6px);
+			color: #ffffff;
+			font-family: "Inter", "Segoe UI", sans-serif;
+		}
+
+		.header
+		{
+			font-size: 0.9rem;
+			opacity: 0.7;
+			margin-bottom: 20px;
+		}
+
+		.suggested
+		{
+			text-align: center;
+			margin-bottom: 14px;
+		}
+
+		.suggested .label
+		{
+			font-size: 0.8rem;
+			opacity: 0.75;
+		}
+
+		.value
+		{
+			font-size: 2.2rem;
+			font-weight: 700;
+		}
+
+		.value span
+		{
+			font-size: 1rem;
+			opacity: 0.6;
+		}
+
+		.stats
+		{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 8px;
+		}
+
+		.stat .label
+		{
+			font-size: 0.7rem;
+			opacity: 0.6;
+		}
+		
+		.label-content
+		{
+			text-align: center;
+		}
+
+		.value.small
+		{
+			font-size: 1.5rem;
+		}
+
+		.scope
+		{
+			font-size: 0.65rem;
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			margin-left: 2px;
+		}
+
+		.scope.universal
+		{
+			color: #8fd3ff;
+		}
+
+		.scope.local
+		{
+			color: #ffb86b;
+		}
+
+		.footer
+		{
+			color: #FFC4BA;
+			margin-top: 10px;
+			font-size: 0.8rem;
+			opacity: 0;
+			text-align: center;
+			line-height: 1.3em;
+			height: 1.3em;
+			overflow: hidden;
+			transition: opacity 250ms ease;
+		}
+		
+		.footer.show {
+			opacity: 0.6;
+		}
+		
+		.ms
+		{
+			opacity:0.6;
+		}
+		
+		</style>
+	</head>
+
+	<body>
+		<div class="offset-card">
+			<div class="header">🎧 Offset Suggester</div>
+
+			<div class="suggested" id="suggestedOffsetDiv">
+				<div class="label">
+					Suggested <span class="scope universal">UNIVERSAL</span> Offset
+				</div>
+				<span id="suggestedOffset" class="value">0</span><span class="ms">ms</span>
+			</div>
+
+			<div class="stats">
+				<div class="stat" id="currentOffsetDiv">
+					<div class="label">
+						Current <span class="scope universal">UNIVERSAL</span> Offset
+					</div>
+					<div class="label-content">
+						<span id="currentOffset" class="value small">0</span><span class="ms">ms</span>
+					</div>
+				</div>
+
+				<div class="stat" id="lastMapOffsetDiv">
+					<div class="label">
+						Last Map’s <span class="scope local">LOCAL</span> Offset
+					</div>
+					<div class="label-content">
+						<span id="lastMapOffset" class="value small">0</span><span class="ms">ms</span>
+					</div>
+				</div>
+			</div>
+
+			<div id="warningText" class="footer"> </div>
+		</div>
+
+		<script src="js/countUp.js"></script>
+		<script src="js/utils.js"></script>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>

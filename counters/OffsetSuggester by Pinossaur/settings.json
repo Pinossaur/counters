@@ -1,0 +1,66 @@
+[
+	{
+		"uniqueID": "currentOffsetEnable",
+		"type": "checkbox",
+		"title": "Enables current universal offset",
+		"description": "Updates your client's universal offset setting.",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "suggestedOffsetEnable",
+		"type": "checkbox",
+		"title": "Enables suggested universal offset",
+		"description": "Updates your suggested offset setting.",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "suggestedOffsetColorEnable",
+		"type": "checkbox",
+		"title": "Suggested universal offset text color",
+		"description": "Updates your suggested offset text color setting.",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "resetSuggestionOnUniversalOffsetChange",
+		"type": "checkbox",
+		"title": "Reset universal offset suggestion",
+		"description": "Whether to reset the suggested universal offset when client universal offset is changed",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "lastMapOffsetEnable",
+		"type": "checkbox",
+		"title": "Enables last map's offset",
+		"description": "Updates your last map's offset calculation.",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "useTextEasing",
+		"type": "checkbox",
+		"title": "Use text easing",
+		"description": "Whether to smoothly ease values.",
+		"options": "",
+		"value": true
+	},
+	{
+		"uniqueID": "realtimeOffsetCalculation",
+		"type": "checkbox",
+		"title": "Real time offset calculation",
+		"description": "Whether to calculate suggested offset in real time",
+		"options": "",
+		"value": false
+	},
+	{
+		"uniqueID": "warningTextDisplayTime",
+		"type": "number",
+		"title": "Warning text display time",
+		"description": "How long (in miliseconds) should warning text be displayed for before fading",
+		"options": "",
+		"value": 2000
+	}
+]
